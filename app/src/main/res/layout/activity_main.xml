@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="@string/horoscopeforecast"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/krios"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/krios"
+            app:layout_constraintBottom_toBottomOf="@id/tavros"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tavros"
+            app:layout_constraintTop_toTopOf="@id/tavros" />
+
+        <TextView
+            android:id="@+id/kriosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/krios"
+            app:layout_constraintLeft_toLeftOf="@id/krios"
+            app:layout_constraintRight_toRightOf="@id/krios"
+            app:layout_constraintTop_toBottomOf="@id/krios" />
+
+        <ImageView
+            android:id="@+id/tavros"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tavros"
+            app:layout_constraintBottom_toBottomOf="@id/didymoi"
+            app:layout_constraintLeft_toRightOf="@id/krios"
+            app:layout_constraintRight_toLeftOf="@id/didymoi"
+            app:layout_constraintTop_toTopOf="@id/didymoi" />
+
+        <TextView
+            android:id="@+id/tavrosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tavros"
+            app:layout_constraintLeft_toLeftOf="@id/tavros"
+            app:layout_constraintRight_toRightOf="@id/tavros"
+            app:layout_constraintTop_toBottomOf="@id/tavros" />
+
+
+        <ImageView
+            android:id="@+id/didymoi"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/didymoi"
+            app:layout_constraintBottom_toTopOf="@id/didymosTitle"
+            app:layout_constraintLeft_toRightOf="@id/tavros"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/didymosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/didymoi"
+            app:layout_constraintBottom_toTopOf="@id/parthenos"
+            app:layout_constraintLeft_toLeftOf="@id/didymoi"
+            app:layout_constraintRight_toRightOf="@id/didymoi"
+            app:layout_constraintTop_toBottomOf="@id/didymoi" />
+
+        <ImageView
+            android:id="@+id/karkinos"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/karkinos"
+            app:layout_constraintBottom_toBottomOf="@id/leon"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/leon"
+            app:layout_constraintTop_toTopOf="@id/leon" />
+
+        <TextView
+            android:id="@+id/karkinosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/karkinos"
+            app:layout_constraintLeft_toLeftOf="@id/karkinos"
+            app:layout_constraintRight_toRightOf="@id/karkinos"
+            app:layout_constraintTop_toBottomOf="@id/karkinos" />
+
+        <ImageView
+            android:id="@+id/leon"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/leon"
+            app:layout_constraintBottom_toBottomOf="@id/parthenos"
+            app:layout_constraintLeft_toRightOf="@id/karkinos"
+            app:layout_constraintRight_toLeftOf="@id/parthenos"
+            app:layout_constraintTop_toTopOf="@id/parthenos" />
+
+        <TextView
+            android:id="@+id/leonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/leon"
+            app:layout_constraintLeft_toLeftOf="@id/leon"
+            app:layout_constraintRight_toRightOf="@id/leon"
+            app:layout_constraintTop_toBottomOf="@id/leon" />
+
+        <ImageView
+            android:id="@+id/parthenos"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/parthenos"
+            app:layout_constraintBottom_toTopOf="@id/parthenosTitle"
+            app:layout_constraintLeft_toRightOf="@id/leon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/didymosTitle" />
+
+        <TextView
+            android:id="@+id/parthenosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parthenos"
+            app:layout_constraintBottom_toTopOf="@id/toxotis"
+            app:layout_constraintLeft_toLeftOf="@id/parthenos"
+            app:layout_constraintRight_toRightOf="@id/parthenos"
+            app:layout_constraintTop_toBottomOf="@id/parthenos" />
+
+        <ImageView
+            android:id="@+id/zygos"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/zygos"
+            app:layout_constraintBottom_toTopOf="@id/aigokerws"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/skorpios"
+            app:layout_constraintTop_toBottomOf="@id/karkinos" />
+
+        <TextView
+            android:id="@+id/zygosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zygos"
+            app:layout_constraintLeft_toLeftOf="@id/zygos"
+            app:layout_constraintRight_toRightOf="@id/zygos"
+            app:layout_constraintTop_toBottomOf="@id/zygos" />
+
+        <ImageView
+            android:id="@+id/skorpios"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/skorpios"
+            app:layout_constraintBottom_toBottomOf="@id/toxotis"
+            app:layout_constraintLeft_toRightOf="@id/zygos"
+            app:layout_constraintRight_toLeftOf="@id/toxotis"
+            app:layout_constraintTop_toTopOf="@id/toxotis" />
+
+        <TextView
+            android:id="@+id/skorpiosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skorpios"
+            app:layout_constraintLeft_toLeftOf="@id/skorpios"
+            app:layout_constraintRight_toRightOf="@id/skorpios"
+            app:layout_constraintTop_toBottomOf="@id/skorpios" />
+
+        <ImageView
+            android:id="@+id/toxotis"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/toxotis"
+            app:layout_constraintBottom_toTopOf="@id/toxotisTitle"
+            app:layout_constraintLeft_toRightOf="@id/skorpios"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/parthenosTitle" />
+
+        <TextView
+            android:id="@+id/toxotisTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toxotis"
+            app:layout_constraintBottom_toTopOf="@id/ixthyes"
+            app:layout_constraintLeft_toLeftOf="@id/toxotis"
+            app:layout_constraintRight_toRightOf="@id/toxotis"
+            app:layout_constraintTop_toBottomOf="@id/toxotis" />
+
+        <ImageView
+            android:id="@+id/aigokerws"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/aigokerws"
+            app:layout_constraintBottom_toBottomOf="@id/ydroxoos"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/ydroxoos"
+            app:layout_constraintTop_toTopOf="@id/ydroxoos" />
+
+        <TextView
+            android:id="@+id/aigokerwsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aigokerws"
+            app:layout_constraintLeft_toLeftOf="@id/aigokerws"
+            app:layout_constraintRight_toRightOf="@id/aigokerws"
+            app:layout_constraintTop_toBottomOf="@id/aigokerws" />
+
+        <ImageView
+            android:id="@+id/ydroxoos"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ydroxoos"
+            app:layout_constraintBottom_toBottomOf="@id/ixthyes"
+            app:layout_constraintLeft_toRightOf="@id/ixthyes"
+            app:layout_constraintRight_toLeftOf="@id/aigokerws"
+            app:layout_constraintTop_toTopOf="@id/ixthyes" />
+
+        <TextView
+            android:id="@+id/ydroxoosTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ydroxoos"
+            app:layout_constraintLeft_toLeftOf="@id/ydroxoos"
+            app:layout_constraintRight_toRightOf="@id/ydroxoos"
+            app:layout_constraintTop_toBottomOf="@id/ydroxoos" />
+
+        <ImageView
+            android:id="@+id/ixthyes"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ixthyes"
+            app:layout_constraintBottom_toTopOf="@id/ixthysTitle"
+            app:layout_constraintLeft_toRightOf="@id/ydroxoos"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toxotisTitle" />
+
+        <TextView
+            android:id="@+id/ixthysTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ixthys"
+            app:layout_constraintBottom_toTopOf="@id/onoffButton"
+            app:layout_constraintLeft_toLeftOf="@id/ixthyes"
+            app:layout_constraintRight_toRightOf="@id/ixthyes"
+            app:layout_constraintTop_toBottomOf="@id/ixthyes" />
+
+
+        <Button
+            android:id="@+id/onoffButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="Logout"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ImageView
+            android:id="@+id/asiLogo"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/asilogo"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--  <Button
+              android:id="@+id/idBtnShowBottomSheet"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Show bottomsheet"
+              android:textAllCaps="false"
+              android:visibility="invisible"
+              app:layout_constraintLeft_toRightOf="@id/onoffButton"
+              android:layout_marginLeft="50dp"
+              app:layout_constraintBottom_toBottomOf="parent"/> -->
+
+        <!--  <androidx.appcompat.widget.AppCompatButton
+              android:id="@+id/btnSimpleDialog"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="50dp"
+              android:text="Bottomsheet dialog"
+              app:layout_constraintBottom_toBottomOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+
+               /> -->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

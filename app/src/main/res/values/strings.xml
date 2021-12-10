@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">DailyForecasts</string>
+    <string name="zwdiotitle">ZwdioTitle</string>
+    <string name="zwdioforecast">ZwdioForecast</string>
+    <string name="horoscopeforecast">Horoscope Forecast</string>
+    <string name="choose_forecast">Choose your Forecast</string>
+    <string name="krios">KRIOS</string>
+    <string name="tavros">TAVROS</string>
+    <string name="didymoi">DIDYMOS</string>
+    <string name="karkinos">KARKINOS</string>
+    <string name="leon">LEON</string>
+    <string name="parthenos">PARTHENOS</string>
+    <string name="zygos">ZYGOS</string>
+    <string name="skorpios">SKORPIOS</string>
+    <string name="toxotis">TOXOTIS</string>
+    <string name="aigokerws">AIGOKERWS</string>
+    <string name="ydroxoos">YDROXOOS</string>
+    <string name="ixthys">IXTHYS</string>
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="kriosdaily">https://asibiliou.gr/prediction/%ce%ba%cf%81%ce%b9%cf%8c%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="tavrosdaily">https://asibiliou.gr/prediction/%cf%84%ce%b1%cf%8d%cf%81%ce%bf%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="didymoidaily">https://asibiliou.gr/prediction/%ce%b4%ce%af%ce%b4%cf%85%ce%bc%ce%bf%ce%b9-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="karkinosdaily">https://asibiliou.gr/prediction/%ce%ba%ce%b1%cf%81%ce%ba%ce%af%ce%bd%ce%bf%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="leondaily">https://asibiliou.gr/prediction/%ce%bb%ce%ad%cf%89%ce%bd-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="parthenosdaily">https://asibiliou.gr/prediction/%cf%80%ce%b1%cf%81%ce%b8%ce%ad%ce%bd%ce%bf%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="zygosdaily">https://asibiliou.gr/prediction/%ce%b6%cf%85%ce%b3%cf%8c%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="skorpiosdaily">https://asibiliou.gr/prediction/%cf%83%ce%ba%ce%bf%cf%81%cf%80%ce%b9%cf%8c%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="toxotisdaily">https://asibiliou.gr/prediction/%cf%84%ce%bf%ce%be%cf%8c%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="aigokerwsdaily">https://asibiliou.gr/prediction/%ce%b1%ce%b9%ce%b3%cf%8c%ce%ba%ce%b5%cf%81%cf%89%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="ydroxoosdaily">https://asibiliou.gr/prediction/%cf%85%ce%b4%cf%81%ce%bf%cf%87%cf%8c%ce%bf%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    <string name="ixthysdaily">https://asibiliou.gr/prediction/%ce%b9%cf%87%ce%b8%cf%8d%ce%b5%cf%82-%ce%b7%ce%bc%ce%b5%cf%81%ce%b7%cf%83%ce%b9%ce%b1/</string>
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="kriosweekly">https://asibiliou.gr/prediction/%ce%ba%cf%81%ce%b9%cf%8c%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="tavrosweekly">https://asibiliou.gr/prediction/%cf%84%ce%b1%cf%8d%cf%81%ce%bf%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="didymosweekly">https://asibiliou.gr/prediction/%ce%b4%ce%af%ce%b4%cf%85%ce%bc%ce%bf%ce%b9-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="karkinosweekly">https://asibiliou.gr/prediction/%ce%ba%ce%b1%cf%81%ce%ba%ce%af%ce%bd%ce%bf%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="leonweekly">https://asibiliou.gr/prediction/%ce%bb%ce%ad%cf%89%ce%bd-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="parthenosweekly">https://asibiliou.gr/prediction/%cf%80%ce%b1%cf%81%ce%b8%ce%ad%ce%bd%ce%bf%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="zygosweekly">https://asibiliou.gr/prediction/%ce%b6%cf%85%ce%b3%cf%8c%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="skorpiosweekly">https://asibiliou.gr/prediction/%cf%83%ce%ba%ce%bf%cf%81%cf%80%ce%b9%cf%8c%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="toxotisweekly">https://asibiliou.gr/prediction/%cf%84%ce%bf%ce%be%cf%8c%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="aigokerwsweekly">https://asibiliou.gr/prediction/%ce%b1%ce%b9%ce%b3%cf%8c%ce%ba%ce%b5%cf%81%cf%89%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="ydroxoosweekly">https://asibiliou.gr/prediction/%cf%85%ce%b4%cf%81%ce%bf%cf%87%cf%8c%ce%bf%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="ixthysweekly">https://asibiliou.gr/prediction/%ce%b9%cf%87%ce%b8%cf%8d%ce%b5%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%b1%ce%b4%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    /////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="kriosmonthly">https://asibiliou.gr/prediction/%ce%ba%cf%81%ce%b9%cf%8c%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="tavrosmonthly">https://asibiliou.gr/prediction/%cf%84%ce%b1%cf%8d%cf%81%ce%bf%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="didymosmonthly">https://asibiliou.gr/prediction/%ce%b4%ce%af%ce%b4%cf%85%ce%bc%ce%bf%ce%b9-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="karkinosmonthly">https://asibiliou.gr/prediction/%ce%ba%ce%b1%cf%81%ce%ba%ce%af%ce%bd%ce%bf%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="leonmonthly">https://asibiliou.gr/prediction/%ce%bb%ce%ad%cf%89%ce%bd-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="parthenosmonthly">https://asibiliou.gr/prediction/%cf%80%ce%b1%cf%81%ce%b8%ce%ad%ce%bd%ce%bf%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="zygosmonthly">https://asibiliou.gr/prediction/%ce%b6%cf%85%ce%b3%cf%8c%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="skorpiosmonthly">https://asibiliou.gr/prediction/%cf%83%ce%ba%ce%bf%cf%81%cf%80%ce%b9%cf%8c%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="toxotismonthly">https://asibiliou.gr/prediction/%cf%84%ce%bf%ce%be%cf%8c%cf%84%ce%b7%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="aigokerwsmonthly">https://asibiliou.gr/prediction/%ce%b1%ce%b9%ce%b3%cf%8c%ce%ba%ce%b5%cf%81%cf%89%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="ydroxoosmonthly">https://asibiliou.gr/prediction/%cf%85%ce%b4%cf%81%ce%bf%cf%87%cf%8c%ce%bf%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    <string name="ixthysmonthly">https://asibiliou.gr/prediction/%ce%b9%cf%87%ce%b8%cf%8d%ce%b5%cf%82-%ce%bc%ce%b7%ce%bd%ce%b9%ce%b1%ce%af%ce%b1/</string>
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="kriosyearly">https://asibiliou.gr/prediction/%ce%ba%cf%81%ce%b9%cf%8c%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="tavrosyearly">https://asibiliou.gr/prediction/%cf%84%ce%b1%cf%8d%cf%81%ce%bf%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="didymosyearly">https://asibiliou.gr/prediction/%ce%b4%ce%af%ce%b4%cf%85%ce%bc%ce%bf%ce%b9-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="karkinosyearly">https://asibiliou.gr/prediction/%ce%ba%ce%b1%cf%81%ce%ba%ce%af%ce%bd%ce%bf%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="leonyearly">https://asibiliou.gr/prediction/%ce%bb%ce%ad%cf%89%ce%bd-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="parthenosyearly">https://asibiliou.gr/prediction/%cf%80%ce%b1%cf%81%ce%b8%ce%ad%ce%bd%ce%bf%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="zygosyearly">https://asibiliou.gr/prediction/%ce%b6%cf%85%ce%b3%cf%8c%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="skorpiosyearly">https://asibiliou.gr/prediction/%cf%83%ce%ba%ce%bf%cf%81%cf%80%ce%b9%cf%8c%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="toxotisyearly">https://asibiliou.gr/prediction/%cf%84%ce%bf%ce%be%cf%8c%cf%84%ce%b7%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="aigokerwsyearly">https://asibiliou.gr/prediction/%ce%b1%ce%b9%ce%b3%cf%8c%ce%ba%ce%b5%cf%81%cf%89%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="ydroxoosyearly">https://asibiliou.gr/prediction/%cf%85%ce%b4%cf%81%ce%bf%cf%87%cf%8c%ce%bf%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    <string name="ixthysyearly">https://asibiliou.gr/prediction/%ce%b9%cf%87%ce%b8%cf%8d%ce%b5%cf%82-%ce%b5%cf%84%ce%ae%cf%83%ce%b9%ce%b1/</string>
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="dailyforecast">Daily Forecast</string>
+    <string name="weeklyforecast">Weekly Forecast</string>
+    <string name="monthlyforecast">Monthly Forecast</string>
+    <string name="yearlyforecast">Yearly Forecast</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_bottomsheet">Show BottomSheet</string>
+    <string name="dismiss_button">Dismiss Button</string>
+    <string name="Click_here">Click here to see your Forecast!</string>
+    <string name="share_button">Share</string>
+
+</resources>

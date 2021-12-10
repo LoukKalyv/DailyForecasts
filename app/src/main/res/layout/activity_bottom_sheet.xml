@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/idImageRandom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/horoscope"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/chooseForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/choose_forecast"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/idImageRandom"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/zwdioname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/zwdiotitle"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/idImageRandom"
+        app:layout_constraintTop_toBottomOf="@id/chooseForecast" />
+
+    <TextView
+        android:id="@+id/dailyForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/dailyforecast"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/idImageRandom"
+        app:layout_constraintTop_toBottomOf="@id/zwdioname" />
+
+    <TextView
+        android:id="@+id/weeklyForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/weeklyforecast"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/idImageRandom"
+        app:layout_constraintTop_toBottomOf="@id/dailyForecast" />
+
+    <TextView
+        android:id="@+id/monthlyForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/monthlyforecast"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/idImageRandom"
+        app:layout_constraintTop_toBottomOf="@id/weeklyForecast" />
+
+
+    <TextView
+        android:id="@+id/yearlyForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/yearlyforecast"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toRightOf="@id/idImageRandom"
+        app:layout_constraintTop_toBottomOf="@id/monthlyForecast" />
+
+
+    <Button
+        android:id="@+id/idBtnDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dismiss_button"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/yearlyForecast" />
+
+    <Button
+        android:id="@+id/idBtnShowBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_bottomsheet"
+        android:visibility="invisible"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/idBtnDismiss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
